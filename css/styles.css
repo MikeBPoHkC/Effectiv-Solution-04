@@ -23,7 +23,10 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--title);
   margin: 0 0 0.5em;
 }
@@ -172,13 +175,11 @@ a:focus-visible {
 }
 .btn--primary {
   background-color: #4d5ae5;
-  border: none;
 }
 
 .btn--primary:hover,
 .btn--primary:focus-visible {
   background-color: #404bbf;
-  border-color: #404bbf;
 }
 
 /* Section  "Team" */
