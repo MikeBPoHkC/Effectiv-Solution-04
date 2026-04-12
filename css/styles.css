@@ -418,6 +418,7 @@ a {
   color: #f4f4fd;
   transform: translateY(100%);
   transition: transform var(--transition);
+  letter-spacing: 0.02em;
 }
 
 .portfolio-item:hover .portfolio-overlay,
